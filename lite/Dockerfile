@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18.20.8-bookworm-slim
 
 # Copy Source Codes
 COPY . /data/fosslight
